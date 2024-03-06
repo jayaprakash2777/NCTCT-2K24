@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dadi Institute Of Engineering & Technology (An Autonomous Institute)</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to bottom right, #ffffff, #ffd700);
+        }
+        .title-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem; /* Moved up by 3rem */
+        }
+        h1 {
+            font-size: 4rem;
+            color: #333333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: black;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            margin-top: 0;
+            text-align: center;
+        }
+        h3 {
+            font-size: 4rem;
+            font-style: italic;
+            font-weight: bold;
+            color: #000000;
+            text-align: center;
+            margin-top: 5rem;
+        }
+        button {
+            background-color: #ffd700;
+            color: #333333;
+            border: none;
+            border-radius: 10px;
+            padding: 20px 40px;
+            text-transform: uppercase;
+            font-size: 2rem;
+            cursor: pointer;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease-in-out;
+            position: relative;
+            overflow: hidden;
+        }
+        button:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 215, 0, 0.5);
+            transform: translateX(-100%);
+            transition: transform 0.5s ease-in-out;
+        }
+        button:hover:before {
+            transform: translateX(100%);
+        }
+        button:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ffd700;
+            transform: translateY(-100%);
+            transition: transform 0.5s ease-in-out;
+        }
+        button:hover:after {
+            transform: translateY(100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Dadi Institute Of Engineering & Technology</h1>
+        <h2>(An Autonomous Institute)</h2>
+    </div>
+    <h3>NCTCT - 2K24</h3>
+    <button><a href="https://diet.edu.in/nctct2k24/" target="_blank" style="color: #333333; text-decoration: none;">Launch</a></button>
+</body>
+</html>
